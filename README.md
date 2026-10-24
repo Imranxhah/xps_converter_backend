@@ -1,4 +1,8 @@
-![XPS Converter — PDF, images, DOCX, and text](docs/assets/cover.jpg)
+<p align="center">
+  <img src="docs/screenshots/home-dark.png" width="250" alt="XPS Converter dark home screen">
+  <img src="docs/screenshots/conversion-options.png" width="250" alt="XPS conversion options">
+  <img src="docs/screenshots/home-light.png" width="250" alt="XPS Converter light home screen">
+</p>
 
 # XPS Converter · REST API
 
@@ -7,6 +11,8 @@ Convert an uploaded XPS document into a PDF, JPEG pages, an image-based Word doc
 **Python · Django · Django REST Framework · PyMuPDF · Pillow · python-docx**
 
 [Get started](#get-started) · [API examples](docs/API.md) · [Configuration](docs/SETUP.md) · [Contribute](CONTRIBUTING.md)
+
+The interface above is the companion [Flutter client](https://github.com/Imranxhah/xps_converter_flutter), which sends the selected XPS document to this API.
 
 ## One upload format, four outputs
 
